@@ -9,7 +9,7 @@ main_menu = '''\nГлавное меню:
 		8. Выход  \n '''
 
 input_choice = 'Выберите пункт меню: '
-notes_file_name = 'data_file.txt'
+notes_file_name = 'data_file.csv'
 
 load_successful = 'Запись успешно открыта'
 save_successful = 'Запись успешно сохранена'
@@ -18,7 +18,7 @@ load_error = 'Заметок нет или они не прочитаны'
 
 input_new_note = 'Введите данные нового контакта:\n НЕ забудьте после добавления заметки нажать на Записать файл \n  '
 new_notes = {'title': 'Введите заголовок заметки: ',
-               'note': 'Введите опимание заметки: '}
+               'note': 'Введите описание заметки: '}
 
 def new_note_successful(title: str):
 		return f'Заметка {title} успешно добавлена.'
